@@ -144,7 +144,7 @@ var changePackingMaterials = function(){
 
 //Показывает модальное окно
 var showModel = function(id){
-    $("#myModal").model("show");
+    $("#myModal").modal("show");
     $('.ui-state-default').click(function () {
         console.log(777);
     });
